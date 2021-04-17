@@ -1,28 +1,17 @@
-import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container } from "reactstrap";
+import React from 'react';
+import {Container, Navbar, NavbarBrand} from "reactstrap";
+import NavCollapsable from "./NavCollapsable";
 
 function AppNavBar(props) {
-    const [isOpen, setIsOpen] = useState(false);
-
-    function toggle() {
-        setIsOpen(!isOpen);
-    }
 
     return (
         <div>
-            <Navbar color="dark" dark expand="sm" className="mb-5">
+            <Navbar style={{backgroundColor: "black"}} dark expand="sm" className="mb-5" fixed="top">
                 <Container>
-                    <NavbarBrand href="/">Tyler Nevell</NavbarBrand>
-                    <NavbarToggler onClick={toggle} />
-                    <Collapse isOpen={isOpen} navbar>
-                        <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <NavLink href="https://github.com/tylernevell">
-                                    GitHub
-                                </NavLink>
-                            </NavItem>
-                        </Nav>
-                    </Collapse>
+                    <div>
+                        <NavbarBrand href="/" className="name-header">Tyler Nevell</NavbarBrand>
+                    </div>
+                    <NavCollapsable />
                 </Container>
             </Navbar>
         </div>
