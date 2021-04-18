@@ -1,13 +1,10 @@
 import React from 'react';
 import AppNavBar from "./AppNavBar";
 import FadeInSection from "./FadeInSection";
-import Bio from "./Bio";
-import Avatar from "./Avatar";
-
-import colors from "./css-colors";
-
+import Homepage from "./Homepage";
+import ProjectGrid from "./ProjectGrid";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container, Row, Col} from "reactstrap";
+import {Container} from "reactstrap";
 
 
 function App() {
@@ -17,31 +14,13 @@ function App() {
                 <AppNavBar />
             </Container>
             <Container>
-                <Container className="main-body">
-                    <FadeInSection>
-                        <Row>
-                            <Col sm="12" md="6">
-                                <Bio />
-                            </Col>
-                            <Col sm="12" md="6" lg={{ size: '5', offset: 1 }}>
-                                <Avatar />
-                            </Col>
-                        </Row>
-                    </FadeInSection>
-                </Container>
-                <Row>
-                    <Col>
-                        {colors.map((color) => (
-                            <FadeInSection key={color}>
-                                <div className="box" style={{ backgroundColor: color }}>
-                                    {color}
-                                </div>
-                            </FadeInSection>
-                        ))}
-                    </Col>
-
-                </Row>
-
+                <Homepage />
+                <FadeInSection>
+                    <ProjectGrid />
+                </FadeInSection>
+                <FadeInSection>
+                    <ProjectGrid />
+                </FadeInSection>
             </Container>
 
         </div>
