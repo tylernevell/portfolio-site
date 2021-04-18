@@ -1,7 +1,7 @@
 import React from "react";
 import {NavItem, NavLink} from "reactstrap";
 
-function Link(props) {
+function NLink(props) {
     return(
         <NavItem className="ml-auto">
             <NavLink href={props.href}>
@@ -11,4 +11,4 @@ function Link(props) {
     );
 }
 
-export default Link;
+export default NLink;

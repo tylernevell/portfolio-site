@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {Collapse, Nav, NavbarToggler, NavItem, NavLink} from "reactstrap";
-import Link from "./Link";
+import NLink from "./Link";
+
 
 function NavCollapsable() {
     const [isOpen, setIsOpen] = useState(false);
@@ -14,15 +15,15 @@ function NavCollapsable() {
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
-                    <Link name={<i style={{fontSize: "30px"}} className="fab fa-github" />} href="https://github.com/tylernevell" />
+                    <NLink name={<i style={{fontSize: "30px"}} className="fab fa-github" />} href="https://github.com/tylernevell" />
                 </Nav>
                 <Nav className="ml-auto" navbar>
-                    <Link name={<i style={{fontSize: "30px"}} className="fab fa-linkedin" />} href="https://linkedin.com/in/tylernevell" />
+                    <NLink name={<i style={{fontSize: "30px"}} className="fab fa-linkedin" />} href="https://linkedin.com/in/tylernevell" />
                 </Nav>
                 <Nav className="ml-auto" navbar>
                     <NavItem className="ml-auto">
-                        <NavLink href="TylerNevell_resume_2021_nwb.pdf" download>
-                            <div style={{textTransform: "uppercase"}}>Résumé</div>
+                        <NavLink href="TylerNevell_resume_2021_safe.pdf" download>
+                            <i style={{fontSize: "28px"}} className="far fa-file-alt" />
                         </NavLink>
                     </NavItem>
                 </Nav>

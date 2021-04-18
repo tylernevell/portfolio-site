@@ -3,7 +3,7 @@ import React from 'react';
 function Avatar() {
     return(
         <div>
-            <p>Hello</p>
+            <img src="profile.jpeg" alt="profile" className="profile-pic clipped" />
         </div>
     );
 }

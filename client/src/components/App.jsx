@@ -17,17 +17,18 @@ function App() {
                 <AppNavBar />
             </Container>
             <Container>
-                <FadeInSection>
-                    <Row>
-                        <Col>
-                            <Bio />
-                        </Col>
-                        <Col>
-                            <Avatar />
-                        </Col>
-                    </Row>
-                </FadeInSection>
-
+                <Container className="main-body">
+                    <FadeInSection>
+                        <Row>
+                            <Col sm="12" md="6">
+                                <Bio />
+                            </Col>
+                            <Col sm="12" md="6" lg={{ size: '5', offset: 1 }}>
+                                <Avatar />
+                            </Col>
+                        </Row>
+                    </FadeInSection>
+                </Container>
                 <Row>
                     <Col>
                         {colors.map((color) => (

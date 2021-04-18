@@ -12,6 +12,52 @@
     visibility: visible;
 }
 
+.profile-pic {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.clipped {
+    clip-path: circle();
+}
+
+.bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #a14ff9;
+}
+
+.helpful-links {
+    line-height: 3rem;
+}
+
+.link {
+    color: white;
+    text-decoration: underline #a14ff9;
+    text-underline-offset: .2rem;
+}
+
+.name-header {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.bio {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.job-title {
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 2rem;
+}
+
+.main-body {
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
 /* Just for presentational purposes, please disregard in your own implementation */
 
 .box {
@@ -26,22 +72,7 @@
     border-radius: 3px;
 }
 
-.name-header {
-    text-transform: uppercase;
-    font-size: 3rem;
-    font-family: 'Rubik Mono One', sans-serif;
-}
 
-.bio {
-    margin-top: 12rem;
-    margin-bottom: 10rem;
-    color: white;
-}
-
-.job-title {
-    font-family: 'Poiret One', cursive;
-
-}
 
 html {
     box-sizing: border-box;
