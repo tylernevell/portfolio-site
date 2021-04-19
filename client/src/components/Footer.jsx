@@ -6,7 +6,9 @@ function Footer() {
         <div>
             <FadeInSection>
                 <footer>
-                    &#169; 2021 Tyler Nevell
+                    <a href="https://github.com/tylernevell/portfolio-site" style={{textDecoration: "none"}}>
+                        <span className="link" style={{color: "#696969"}}>&#169; 2021 Tyler Nevell</span>
+                    </a>
                 </footer>
             </FadeInSection>
         </div>
