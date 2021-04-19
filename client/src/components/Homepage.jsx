@@ -1,8 +1,8 @@
-import React from "react";
-import FadeInSection from "./FadeInSection";
-import {Col, Container, Row} from "reactstrap";
-import Bio from "./Bio";
-import Avatar from "./Avatar";
+import React from 'react';
+import FadeInSection from './FadeInSection';
+import {Col, Container, Row} from 'reactstrap';
+import Bio from './Bio';
+import Avatar from './Avatar';
 
 function Homepage() {
     return (

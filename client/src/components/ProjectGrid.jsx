@@ -1,13 +1,13 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
-import FadeInSection from "./FadeInSection";
-import ProjectSquare from "./ProjectSquare";
-import projects from "./projects";
+import FadeInSection from './FadeInSection';
+import ProjectSquare from './ProjectSquare';
+import projects from './projects';
 
 function ProjectGrid(props) {
     return (
 
-        <div>
+        <div style={{marginTop: "80px"}}>
             <FadeInSection>
                 <Row>
                     <Col sm="12" md="6" lg="4">

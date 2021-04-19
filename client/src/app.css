@@ -55,32 +55,88 @@
 
 .main-body {
     margin-top: 12rem;
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
 }
 
-/* Just for presentational purposes, please disregard in your own implementation */
+.project-marker {
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-size: 5rem;
+    padding: 2px;
+    border: white 1px;
+}
 
-.box {
-    padding: 200px 50px;
-    margin: 20px 0;
+a.project-box-anchor {
+    /* anchor tag added inline-block */
+    display: inline-block;
+    text-decoration: none;
+}
+
+.project-box {
+    height: 500px;
+    margin-bottom: 80px;
     border-radius: 25px;
+    overflow: hidden;
+    /*background-position-x: -80px;*/
     /*background-color: #a14ff9;*/
 }
 
-.box span {
-    background-color: rgba(255, 255, 255, 0.5);
-    display: inline-block;
-    padding: 5px;
+.project-box:hover img {
+    -webkit-filter: brightness(20%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
+.project-text {
+    -webkit-filter: opacity(0);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h3.project-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p.project-description {
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.project-box:hover .project-text {
+    -webkit-filter: opacity(1);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.project-box img {
+    object-fit: cover;
+
+}
 
 
 html {
     box-sizing: border-box;
 }
-* {
-    box-sizing: inherit;
-}
+/** {*/
+/*    box-sizing: inherit;*/
+/*}*/
 
 footer {
     text-align: center;

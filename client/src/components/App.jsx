@@ -2,6 +2,7 @@ import React from 'react';
 import AppNavBar from "./AppNavBar";
 import Homepage from "./Homepage";
 import ProjectGrid from "./ProjectGrid";
+import ProjectMarker from "./ProjectMarker";
 import Footer from "./Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from "reactstrap";
@@ -15,6 +16,7 @@ function App() {
             </Container>
             <Container>
                 <Homepage />
+                <ProjectMarker />
                 <ProjectGrid />
                 <Footer />
             </Container>

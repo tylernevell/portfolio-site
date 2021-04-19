@@ -8,8 +8,16 @@ function Bio() {
                 Hi there,
             </p>
             <p>
-                I am currently seeking Software Engineer positions in Web Development. Proficient in
-                <span className="bold"> React</span>, <span className="bold">Node</span>, <span className="bold">Express</span>, <span className="bold">MongoDb/Mongoose</span>, <span className="bold">EJS</span>, <span className="bold">CSS</span>, <span className="bold">HTML</span>, and <span className="bold">OAuth2.0</span>.
+                I am currently seeking Software Engineer positions in Web Development. Proficient in&nbsp;
+                <span className="bold"> React</span>, &nbsp;
+                <span className="bold">Node</span>, &nbsp;
+                <span className="bold">Express</span>, &nbsp;
+                <span className="bold">MongoDb/Mongoose</span>, &nbsp;
+                <span className="bold">EJS</span>, &nbsp;
+                <span className="bold">CSS</span>, &nbsp;
+                <span className="bold">HTML</span>
+                , and &nbsp;
+                <span className="bold">OAuth2.0</span>.
             </p>
             <p>
                 I have dual degrees in Marketing and Computer Science from the University

@@ -1,5 +1,5 @@
-import React from "react";
-import FadeInSection from "./FadeInSection";
+import React from 'react';
+import FadeInSection from './FadeInSection';
 
 function Footer() {
     return (

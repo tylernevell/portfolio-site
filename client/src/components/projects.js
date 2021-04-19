@@ -7,7 +7,7 @@ const whisper = {
 
 const monkeyMech = {
     "name": "Monkey Mech Website",
-    "description": "The splash page for the Monkey Mech VR Game. A work in progress. Expected launch: Early May.",
+    "description": "The splash page for the Monkey Mech VR Game. A work in progress. Expected launch: Early May. Backend built with Firebase, PostgreSQL, and an Express API.",
     "imgString": "monkeymech_scrnsht.jpg",
     "linkString": "https://github.com/tylernevell/monkeyMechWebsite"
 };
@@ -21,7 +21,7 @@ const todolist = {
 
 const blog = {
     "name": "Blog Site",
-    "description": "Blog built using EJS, Express, Node, and Mongoose.",
+    "description": "Blog built using EJS, Express, Node, and Mongoose. Bootstrap utilized for styling.",
     "imgString": "blog_scrnsht.jpg",
     "linkString": "https://github.com/tylernevell/blogProject"
 };
@@ -35,11 +35,11 @@ const wikiApi = {
 
 const mernShoppingList = {
     "name": "Shopping List",
-    "description": "A shopping List Web Application ",
+    "description": "A shopping List Web Application built using the MERN stack. An extension of the lessons learned from my ToDo List app.",
     "imgString": "shoppinglist_scrnsht.jpg",
     "linkString": "https://github.com/tylernevell/mern-shopping-list"
 };
 
-const projects = [whisper, monkeyMech,todolist, blog, wikiApi, mernShoppingList];
+const projects = [whisper, monkeyMech, blog, todolist, wikiApi, mernShoppingList];
 
 export default projects;
