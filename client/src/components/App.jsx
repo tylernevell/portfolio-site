@@ -1,8 +1,8 @@
 import React from 'react';
 import AppNavBar from "./AppNavBar";
-import FadeInSection from "./FadeInSection";
 import Homepage from "./Homepage";
 import ProjectGrid from "./ProjectGrid";
+import Footer from "./Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from "reactstrap";
 
@@ -15,12 +15,8 @@ function App() {
             </Container>
             <Container>
                 <Homepage />
-                <FadeInSection>
-                    <ProjectGrid />
-                </FadeInSection>
-                <FadeInSection>
-                    <ProjectGrid />
-                </FadeInSection>
+                <ProjectGrid />
+                <Footer />
             </Container>
 
         </div>

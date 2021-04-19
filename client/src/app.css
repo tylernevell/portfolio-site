@@ -64,7 +64,7 @@
     padding: 200px 50px;
     margin: 20px 0;
     border-radius: 25px;
-    background-color: #a14ff9;
+    /*background-color: #a14ff9;*/
 }
 
 .box span {
@@ -80,5 +80,11 @@ html {
 }
 * {
     box-sizing: inherit;
+}
+
+footer {
+    color: #696969;
+    text-align: center;
+    padding: 4rem 0;
 }
 
