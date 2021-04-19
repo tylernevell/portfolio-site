@@ -6,7 +6,7 @@ function AppNavBar(props) {
 
     return (
         <div>
-            <Navbar style={{backgroundColor: "black"}} dark expand="sm" className="mb-5" fixed="top">
+            <Navbar style={{backgroundColor: "black"}} dark expand="md" className="mb-5" fixed="top">
                 <Container>
                     <div>
                         <NavbarBrand href="/" className="name-header">Tyler Nevell</NavbarBrand>

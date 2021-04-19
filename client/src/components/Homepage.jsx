@@ -9,10 +9,10 @@ function Homepage() {
         <Container className="main-body">
             <FadeInSection>
                 <Row>
-                    <Col sm="12" md="6">
+                    <Col sm="12" md="12">
                         <Bio />
                     </Col>
-                    <Col sm="12" md="6" lg={{ size: '5', offset: 1 }}>
+                    <Col sm="12" md="12" lg={{ size: '5', offset: 1 }}>
                         <Avatar />
                     </Col>
                 </Row>
