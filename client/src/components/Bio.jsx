@@ -9,21 +9,26 @@ function Bio() {
             </p>
             <p>
                 I am currently seeking Software Engineer positions in Web Development. Proficient in&nbsp;
-                <span className="bold"> React</span>, &nbsp;
-                <span className="bold">Node</span>, &nbsp;
-                <span className="bold">Express</span>, &nbsp;
-                <span className="bold">MongoDb/Mongoose</span>, &nbsp;
-                <span className="bold">EJS</span>, &nbsp;
-                <span className="bold">CSS</span>, &nbsp;
-                <span className="bold">HTML</span>
+                <b className="bold">React</b>, &nbsp;
+                <b className="bold">Node</b>, &nbsp;
+                <b className="bold">Express</b>, &nbsp;
+                <b className="bold">MongoDB</b>, &nbsp;
+                <b className="bold">EJS</b>, &nbsp;
+                <b className="bold">Python</b>, &nbsp;
+                <b className="bold">C++</b>, &nbsp;
+                <b className="bold">RESTful APIs</b>, &nbsp;
+                <b className="bold">SQL</b>, &nbsp;
+                <b className="bold">CSS</b>, &nbsp;
+                <b className="bold">HTML</b>
                 , and &nbsp;
-                <span className="bold">OAuth2.0</span>.
+                <b className="bold">Javascript</b>.
             </p>
             <p>
                 I have dual degrees in Marketing and Computer Science from the University
                 of Colorado and experience in both the front-end and back-end of web
                 development. I have a passion for learning and believe that the best way
-                to live life is to search for new ways to grow as a person.
+                to live life is to put yourself outside of your comfort zone and search
+                for new ways to grow as a person.
             </p>
             <p>
                 With previous experience in the professional world and a strong foundation in
